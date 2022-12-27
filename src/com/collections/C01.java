@@ -37,5 +37,7 @@ public class C01 {
         for (String string : synchronizeList){
             System.out.print(string+' ');
         }
+
+        myList.stream().map(x -> 3*x).forEach(System.out::println);
     }
 }
